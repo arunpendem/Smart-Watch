@@ -12,7 +12,8 @@ function time()
              var Month=ourDate.getMonth()
              var month=monthsInYear[Month]
              var year=ourDate.getFullYear()
-            //  document.getElementById("msg").style.display="none";
+             document.getElementById("Time").style.display="block";
+            document.getElementById("msg").style.display="none";
              if(hrs<12)
              document.getElementById("Time").innerText=hrs+":"+min+" AM\n"+today+" "+month+" "+year
              else if(hrs==12&&hrs%12==0)
@@ -27,4 +28,5 @@ function time()
              {
                  document.getElementById("Time").style.display="none";
                  document.getElementById("msg").innerText="hi...iam arun"
+                 document.getElementById("msg").style.display="block";
              }
