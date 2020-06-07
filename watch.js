@@ -11,8 +11,10 @@ function time() {
     var Month = ourDate.getMonth()
     var month = monthsInYear[Month]
     var year = ourDate.getFullYear()
+
     document.getElementById("Time").style.display = "block";
     document.getElementById("msg").style.display = "none";
+    document.getElementById("audio").style.display = "none";
     if (hrs < 12)
         document.getElementById("Time").innerText = hrs + ":" + min + " AM\n" + today + " " + month + " " + year
     else if (hrs == 12 && hrs % 12 == 0)
@@ -27,11 +29,14 @@ function message() {
     document.getElementById("Time").style.display = "none";
     document.getElementById("msg").innerText = "hi...iam arun"
     document.getElementById("msg").style.display = "block";
+    document.getElementById("audio").style.display = "none";
+
+
 }
 
-function music() {
-    document.getElementById("msg").style.display="none";
-    document.getElementById("audio").style.display="block";
-    document.getElementById("Time").style.display="none";
-    document.getElementById("screen").innerHTML += '<iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="100" height="20"frameborder-radius="37.4861" allowtransparency="true" allow="encrypted-media"></iframe>';
+function play() {
+    document.getElementById("audio").style.display = "block";
+    document.getElementById("msg").style.display = "none";
+    document.getElementById("Time").style.display = "none";
+    document.getElementById("audio").innerHTML += '<iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="100" height="20"frameborder-radius="37.4861" allowtransparency="true" allow="encrypted-media"></iframe>';
 }
