@@ -1,0 +1,138 @@
+.part{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+}
+.left{
+    left: 0;
+    background-color: rgb(217, 167, 211);
+    text-align: center;
+    color: rgb(185, 58, 100);
+}
+.right{
+    right: 0;
+    text-align: left;
+    background-color: rgb(127, 115, 188);
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.r1{
+    position: absolute;
+    width: 72px;
+    height: 82px;
+    background: #8A7070;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+.r2{
+    position: absolute;
+    width: 180px;
+    height: 161px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #151313;
+    border-radius: 50px;
+}
+/* .r3{
+    position: relative;
+    width: 72px;
+    height: 82px;
+    background: #8A7070;
+    top: 30%;
+    bottom: 60%;
+    transform: translate(-50%,-50%);
+} */
+/* .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+  /* .top1{
+    position: absolute;
+    top: 31%;
+     bottom: 70%; 
+    transform: translate(-50%,-50%);
+
+} 
+.bottom1{ 
+position: absolute;
+top: 69%;
+bottom: 30%;
+transform: translate(-50%,-50%);
+}   */
+#Time
+{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    letter-spacing: 1.5px;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+}
+.Home
+{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    /* size: 0.3in; */
+    width: 0.3in;
+    height: 0.2in;
+    border-radius: 0.25in;
+    color: rgb(253, 253, 253);
+    background-color:rgb(74, 137, 138);
+}
+.Msg
+{
+    position: absolute;
+    top: 75%;
+    left: 34%;
+    border-radius: 0.25in;
+    width: 0.3in;
+    height: 0.2in;
+    color: rgb(253, 253, 253);
+    background-color:rgb(74, 137, 138);
+
+}
+#msg
+{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    letter-spacing: 1.5px;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+}
+#Aud
+{
+    position: absolute;
+    top: 75%;
+    left: 53%;
+    border-radius: 0.25in;
+    width: 0.3in;
+    height: 0.2in;
+    color: rgb(253, 253, 253);
+    background-color:rgb(74, 137, 138);
+}
+#SWatch
+{
+    position: absolute;
+    top: 75%;
+    left: 72%;
+    border-radius: 2in;
+    width: 0.3in;
+    height: 0.2in;
+    color: rgb(253, 253, 253);
+    background-color:rgb(74, 137, 138);
+}
+
+
