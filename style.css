@@ -112,7 +112,7 @@ transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     font-weight: bold;
 }
-#Aud
+.Aud
 {
     position: absolute;
     top: 75%;
@@ -135,4 +135,13 @@ transform: translate(-50%,-50%);
     background-color:rgb(74, 137, 138);
 }
 
+#audio{
+    color: white;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    letter-spacing: 1.5px;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+}
 
