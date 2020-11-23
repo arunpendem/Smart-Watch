@@ -125,7 +125,7 @@ transform: translate(-50%,-50%);
     color: rgb(253, 253, 253);
     background-color:rgb(74, 137, 138);
 }
-#SWatch
+/* #SWatch
 {
     position: absolute;
     top: 75%;
@@ -135,7 +135,7 @@ transform: translate(-50%,-50%);
     height: 0.2in;
     color: rgb(253, 253, 253);
     background-color:rgb(74, 137, 138);
-}
+} */
 
 #audio
 {
